@@ -16,6 +16,8 @@
 		144550C825C0593500BE37FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144550C625C0593500BE37FD /* LaunchScreen.storyboard */; };
 		144550D325C0593500BE37FD /* JustDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144550D225C0593500BE37FD /* JustDesignTests.swift */; };
 		144550DE25C0593600BE37FD /* JustDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144550DD25C0593600BE37FD /* JustDesignUITests.swift */; };
+		144550F025C0949000BE37FD /* Sofia in Resources */ = {isa = PBXBuildFile; fileRef = 144550EF25C0949000BE37FD /* Sofia */; };
+		1474A46A25C6FD5300F3ED60 /* customLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474A46925C6FD5300F3ED60 /* customLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		144550D925C0593600BE37FD /* JustDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		144550DD25C0593600BE37FD /* JustDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustDesignUITests.swift; sourceTree = "<group>"; };
 		144550DF25C0593600BE37FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144550EF25C0949000BE37FD /* Sofia */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sofia; sourceTree = "<group>"; };
+		1474A46925C6FD5300F3ED60 /* customLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				144550B725C0593200BE37FD /* JustDesign */,
+				144550EE25C0918000BE37FD /* Fonts */,
 				144550D125C0593500BE37FD /* JustDesignTests */,
 				144550DC25C0593600BE37FD /* JustDesignUITests */,
 				144550B625C0593200BE37FD /* Products */,
@@ -105,6 +110,7 @@
 				144550BA25C0593200BE37FD /* SceneDelegate.swift */,
 				144550BC25C0593200BE37FD /* ViewController.swift */,
 				144550BE25C0593200BE37FD /* Main.storyboard */,
+				1474A46925C6FD5300F3ED60 /* customLabel.swift */,
 				144550C425C0593500BE37FD /* Assets.xcassets */,
 				144550C625C0593500BE37FD /* LaunchScreen.storyboard */,
 				144550C925C0593500BE37FD /* Info.plist */,
@@ -129,6 +135,14 @@
 				144550DF25C0593600BE37FD /* Info.plist */,
 			);
 			path = JustDesignUITests;
+			sourceTree = "<group>";
+		};
+		144550EE25C0918000BE37FD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				144550EF25C0949000BE37FD /* Sofia */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +251,7 @@
 				144550C825C0593500BE37FD /* LaunchScreen.storyboard in Resources */,
 				144550C525C0593500BE37FD /* Assets.xcassets in Resources */,
 				144550C025C0593200BE37FD /* Main.storyboard in Resources */,
+				144550F025C0949000BE37FD /* Sofia in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1474A46A25C6FD5300F3ED60 /* customLabel.swift in Sources */,
 				144550BD25C0593200BE37FD /* ViewController.swift in Sources */,
 				144550B925C0593200BE37FD /* AppDelegate.swift in Sources */,
 				144550BB25C0593200BE37FD /* SceneDelegate.swift in Sources */,
